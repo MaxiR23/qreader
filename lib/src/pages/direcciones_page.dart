@@ -9,8 +9,11 @@ class DireccionesPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+    scanBloc.getAllScans();
+
     return StreamBuilder<List<ScanModel>>(
-      stream: scanBloc.streamScan ,
+      stream: scanBloc.scanStreamHttp ,
       builder: (BuildContext context, AsyncSnapshot<List<ScanModel>> snapshot){
         if(!snapshot.hasData){
           return Center(child: CircularProgressIndicator());
