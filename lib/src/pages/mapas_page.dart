@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 
-class DirecctionPage extends StatelessWidget {
-  const DirecctionPage({Key key}) : super(key: key);
+class MapasPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: child,
+      
     );
   }
 }

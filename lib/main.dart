@@ -13,6 +13,9 @@ class MyApp extends StatelessWidget {
       routes: {
         '/' : (BuildContext context) => HomePage(),
       },
+      theme: ThemeData(
+        primaryColor: Colors.blueGrey
+      ),
     );
   }
 }
