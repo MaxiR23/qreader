@@ -72,7 +72,7 @@ class _HomePageState extends State<HomePage> {
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.brightness_5),
-          title: Text('Directions')
+          title: Text('Address')
         )
       ]
     );
